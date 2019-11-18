@@ -1,0 +1,48 @@
+Resposta da primeira questão:
+137979
+Resposta da segunda questão:
+20871
+Resposta da terceira questão:
++--------------------+-----+
+|                URLs|count|
++--------------------+-----+
+|GET /pub/winvn/re...| 2004|
+|GET /pub/winvn/re...| 1732|
+|GET /shuttle/miss...|  682|
+|GET /shuttle/miss...|  426|
+|GET /history/apol...|  384|
++--------------------+-----+
+
+Resposta da quarta questão:
++-----------+-----+
+|       Data|count|
++-----------+-----+
+|02/Jul/1995|  291|
+|21/Aug/1995|  305|
+|06/Aug/1995|  373|
+|16/Jul/1995|  257|
+|07/Aug/1995|  537|
+|11/Aug/1995|  263|
+|27/Jul/1995|  336|
+|07/Jul/1995|  569|
+|17/Jul/1995|  406|
+|15/Jul/1995|  254|
+|18/Jul/1995|  465|
+|26/Jul/1995|  336|
+|03/Aug/1995|  303|
+|18/Aug/1995|  256|
+|17/Aug/1995|  271|
+|14/Aug/1995|  287|
+|10/Jul/1995|  398|
+|04/Jul/1995|  359|
+|20/Aug/1995|  312|
+|20/Jul/1995|  428|
++-----------+-----+
+only showing top 20 rows
+
+Resposta da quinta questão:
++--------------+
+|sum(BytesLong)|
++--------------+
+|   65524319796|
++--------------+
