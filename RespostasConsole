@@ -3,15 +3,15 @@ Resposta da primeira questão:
 Resposta da segunda questão:
 20871
 Resposta da terceira questão:
-+--------------------+-----+
-|                URLs|count|
-+--------------------+-----+
-|GET /pub/winvn/re...| 2004|
-|GET /pub/winvn/re...| 1732|
-|GET /shuttle/miss...|  682|
-|GET /shuttle/miss...|  426|
-|GET /history/apol...|  384|
-+--------------------+-----+
++---------------------------------------------------------+-----+
+|URLs                                                     |count|
++---------------------------------------------------------+-----+
+|GET /pub/winvn/readme.txt HTTP/1.0                       |2004 |
+|GET /pub/winvn/release.txt HTTP/1.0                      |1732 |
+|GET /shuttle/missions/STS-69/mission-STS-69.html HTTP/1.0|682  |
+|GET /shuttle/missions/sts-68/ksc-upclose.gif HTTP/1.0    |426  |
+|GET /history/apollo/a-001/a-001-patch-small.gif HTTP/1.0 |384  |
++---------------------------------------------------------+-----+
 
 Resposta da quarta questão:
 +-----------+-----+
@@ -46,3 +46,4 @@ Resposta da quinta questão:
 +--------------+
 |   65524319796|
 +--------------+
+
