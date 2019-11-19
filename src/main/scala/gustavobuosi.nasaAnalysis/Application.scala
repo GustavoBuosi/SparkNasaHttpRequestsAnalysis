@@ -1,11 +1,7 @@
 package gustavobuosi.nasaAnalysis
 
-import org.apache.avro.generic.GenericData.StringType
 import org.apache.log4j.{Level, LogManager}
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.types.{DateType, IntegerType, LongType, TimestampType}
-import org.apache.spark.sql.{functions => f}
-import gustavobuosi.nasaAnalysis.Functions
 
 object Application extends App {
 
@@ -17,7 +13,6 @@ object Application extends App {
   LogManager.getRootLogger.setLevel(Level.WARN)
 
   import spark.implicits._
-
   //Criação do DataFrame a partir do arquivo, renomeando apenas as colunas que importam para resolver as questões
     val dfInicial = spark.read.format("csv")
     .option("quote", "\"")
@@ -59,9 +54,10 @@ object Application extends App {
   println("Resposta da segunda questão:")
   println(dfErros404.toString)
   println("Resposta da terceira questão:")
-  dfOrderDistinctUrls.show()
+  dfOrderDistinctUrls.show(false)
   println("Resposta da quarta questão:")
   df404Diarios.show()
   println("Resposta da quinta questão:")
   dfTotalBytes.show()
+
 }
